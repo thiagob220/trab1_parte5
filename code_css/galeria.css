@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #dad3d3;
     color: #000000;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
 }
 
 h1 {
@@ -34,11 +40,27 @@ h2 {
 
 .container {
     width: 70%;
+    max-width: 1000px;
     margin: 20px auto;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
+}
+
+.containerr {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.containerr img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav {
@@ -138,3 +160,43 @@ footer table img {
     margin-right: 10px; 
     width: 20px; 
 }
+
+@media screen and (max-width: 600px) {
+
+    header h1{
+        border-radius: 0;
+        width: 100%;
+        margin: 0; 
+    }
+
+    nav{
+        border-radius: 0;
+        width: 100%;
+        margin: 0; 
+    }
+
+    h1 {
+        border-radius: 0;
+        width: 100%;
+        margin: 0; 
+    }
+
+    h2 {
+        border-radius: 0;
+        width: 100%;
+        margin: 0; 
+    }
+
+    section {
+        border-radius: 0;
+        width: 100%;
+        margin: 0; 
+    }
+
+    footer {
+        border-radius: 0;
+        width: 100%;
+        margin: 0; 
+    }
+}
+
