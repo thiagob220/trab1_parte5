@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dad3d3;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #c7c5c5;
+    color: #1a1616;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+header h1{
+    margin-bottom: 4px;
+    border-radius: 20px;
+}
+
+h2 {
+    color: #312626;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+nav {
+    margin-top: 4px;
+    text-align: center;
+    background-color: #444;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    align-items: center;
+    margin-right: 1px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+section h2{
+    text-align: left;
+    padding: 20px;
+}
+
+section {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    
+}
+
+nav ul li a:hover {
+    background-color: #c4c4c4;
+    border-radius: 100px;
+}
+
+.gallery-table {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery-table td {
+    padding: 1px;
+}
+
+.gallery-table img {
+    width: 100%;
+    max-width: 150px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+
+footer {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #646060;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 4px;
+    border-radius: 20px;
+}
+
+footer table {
+    width: 100%;
+    text-align: left;
+}
+
+footer table td {
+    padding: 10px;
+}
+
+footer table img {
+    vertical-align: middle;
+    margin-right: 10px; 
+    width: 20px; 
+}
